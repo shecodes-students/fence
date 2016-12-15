@@ -1,0 +1,27 @@
+{
+  "name": "fence",
+  "version": "1.0.0",
+  "description": "Tell me where your first and last fenceposts are and how many posts you want, and I tell you where to put all the posts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shecodes-students/fence.git"
+  },
+  "keywords": [
+    "distribution",
+    "divide",
+    "fence-problem"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shecodes-students/fence/issues"
+  },
+  "homepage": "https://github.com/shecodes-students/fence#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
