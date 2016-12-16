@@ -5,7 +5,7 @@ function fence(start, end, count) {
     var distance = (end-start) / (count - 1);
     console.log(distance);
 
-    var xCoordinates = [];  //evtl. die Strecke erst halbieren und dann nochmal in kleinere Teile zerlegen um Fehler zu verteilen
+    var xCoordinates = []; 
     for (var n=0; n<count; n++) {
         var xn = start + n * distance;
         xCoordinates.push(xn);
